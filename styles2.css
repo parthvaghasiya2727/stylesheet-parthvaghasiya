@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header h1{
+    font-size: 35px;
+}
+
+.header p{
+    font-size: 20px;
+}
+
+.main{
+    background-color: white;
+    margin:2rem 1rem;
+    height: 400px;
+    color: black;
+    display: flex;
+}
+
+.box-1{
+    width: 85%;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+.box-2{
+    width: 15%;
+    height: 400px;
+}
+
+.box-2 button{
+    padding: 1rem 0.5rem;
+    border-radius: 12px;
+    margin: 0.5rem;
+    font-size: 16px;
+    width: 200px;
+    background-color: lightgray;
+}
+
+.box-2 button:hover{
+    color: white;
+    background-color: rgb(196, 64, 64);
+}
+
+.box-2 button a{
+    text-decoration: none;
+}
+
+.box-2 button a:hover{
+    color: white;
+}
+
+.side-bar{
+    height: 70px;
+    margin: 0rem 1rem;
+    background-color: palevioletred;
+}
+
+.footer p{
+    margin: 2rem 1rem;
+    text-align: center;
+}

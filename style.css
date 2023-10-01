@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header{
+    background-color: rgb(52, 137, 52);
+    color: white;
+    height: 70px;
+    width: 100%;
+}
+
+.main-content{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.left-section{
+    height: 400px;
+}
+
+.left-section button{
+    padding: 1rem 0.5rem;
+    border-radius: 12px;
+    margin: 0.5rem;
+    font-size: 16px;
+    width: 200px;
+    background-color: lightgray;
+}
+
+.left-section button:hover{
+    background-color: rgb(15, 92, 15);
+    color: white;
+}
+
+.left-section button a{
+    color: black;
+}
+
+.left-section button a:hover{
+    color: white;
+}
+
+.center-section{
+    width: 90%;
+    height: 450px;
+}
+
+.center-section h1{
+    margin-top: 1.5rem;
+}
+
+.center-section p{
+    font-size: 20px;
+}
+
+.right-section{
+    background-color: rgba(18, 18, 255, 0.592);
+    width: 20%;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.right-section h3{
+    margin: 0.5rem;
+}
+
+.right-section p{
+    margin: 0.5rem;
+}
+
+footer{
+    background-color: lightblue;
+}
+
+footer p{
+    text-align: center;
+}
